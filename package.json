@@ -1,0 +1,58 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server_koa_1.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^2.2.1",
+    "async-busboy": "^0.6.2",
+    "co-body": "^5.1.1",
+    "co-busboy": "^1.4.0",
+    "fs-extra": "^5.0.0",
+    "handlebars": "^4.0.11",
+    "jasmine-node": "^1.14.5",
+    "jsonfile": "^4.0.0",
+    "jsonwebtoken": "^8.2.0",
+    "koa": "^2.5.0",
+    "koa-body": "^2.5.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-force-ssl": "0.0.5",
+    "koa-jwt": "^3.3.1",
+    "koa-logger": "^3.1.0",
+    "koa-router": "^7.4.0",
+    "koa-send": "^4.1.2",
+    "koa-static": "^4.0.2",
+    "koa-static-folder": "^0.1.6",
+    "koa-static-middleware": "0.0.3",
+    "koa2-formidable": "^1.0.2",
+    "koa2-static-middleware": "^1.0.3",
+    "lz-string": "^1.4.4",
+    "md5": "^2.2.1",
+    "moment": "^2.20.1",
+    "mongodb": "^3.0.5",
+    "mongoose": "^5.0.1",
+    "newman": "^3.9.3",
+    "node-cmd": "^3.0.0",
+    "node-cryptojs-aes": "^0.4.0",
+    "node-pre-gyp": "^0.9.0",
+    "nodemailer": "^4.4.2",
+    "nodemon": "^1.17.3",
+    "path": "^0.12.7",
+    "pipeline-test-node": "^1.1.1",
+    "q": "^1.5.1",
+    "socket.io": "^2.0.4",
+    "swig": "^1.4.2",
+    "uuid": "^3.2.1"
+  }
+}
